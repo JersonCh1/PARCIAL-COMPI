@@ -1,0 +1,80 @@
+D -> LLAVEI OPCION fin LLAVED
+
+elige -> ''
+elige -> ASIGNAR
+elige -> P
+elige -> control
+
+OPCION -> ''
+OPCION -> ASIGNAR
+OPCION -> P
+OPCION -> control
+
+ASIGNAR -> V K
+
+V -> entero ID igual
+V -> decimal ID igual
+V -> siono ID igual
+V -> palabra ID igual
+V -> letra ID igual
+V -> ''
+V -> mostrar pareni K parend
+
+C -> entero OL
+C -> palabra OL
+C -> letra OL
+C -> siono OL
+C -> decimal OL
+C -> ID OL
+C -> num OL
+C -> palabra OL
+C -> ''
+
+P -> pareni C parend P
+P -> ''
+
+control -> para P LLAVEI OPCION fin LLAVED
+control -> mientras P LLAVEI OPCION fin LLAVED
+control -> si P LLAVEI control fin LLAVED
+control -> ''
+
+OL -> ''
+OL -> y C2
+OL -> o C2
+OL -> igual C2
+OL -> suma C2
+OL -> resta C2
+OL -> multi C2
+OL -> dividir C2
+OL -> di C2
+OL -> diferente C2
+OL -> menor C2
+OL -> mayor C2
+OL -> menor_igual C2
+OL -> mayor_igual C2
+OL -> incrementar C2
+OL -> decrementar C2
+
+C2 -> entero P
+C2 -> siono P
+C2 -> palabra P
+C2 -> letra P
+C2 -> decimal P
+C2 -> ID P
+C2 -> num P
+C2 -> palabra P
+C2 -> ''
+
+C3 -> ''
+C3 -> entero OL
+C3 -> siono OL
+C3 -> palabra OL
+C3 -> letra OL
+C3 -> decimal OL
+C3 -> ID OL
+C3 -> num OL
+C3 -> palabra OL
+
+K -> num
+K -> ID
+K -> ''

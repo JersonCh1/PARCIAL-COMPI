@@ -1,0 +1,9 @@
+funcion factorial(n) {
+si (n <= 1) {
+devolver 1;
+} sino {
+devolver n * factorial(n - 1);
+}
+}
+numero = 5;
+imprimir("Factorial de " + numero + " es: " + factorial(numero));

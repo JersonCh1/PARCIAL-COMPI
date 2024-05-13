@@ -1,0 +1,5 @@
+digraph syntax_tree {
+  node0 [label="block: None"];
+  node0 -> node1;
+  node1 [label="assign: [<__main__.Nodo object at 0x7407da0e7490>, <__main__.Nodo object at 0x7407da0e7700>]"];
+}

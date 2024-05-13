@@ -1,0 +1,15 @@
+Funcion _f_(int x, float y, bool z)
+	Mientras(True)
+		Si(x>y || y<=x+y)
+			Retornar z*x
+		FSi
+	FMientras
+	Si(x==y && _f_(x))
+		Retornar False
+	FSi
+FFuncion
+
+Inicio
+	int x=10
+	int y=_f_(_f_(x)+x,x,x)
+Fin
